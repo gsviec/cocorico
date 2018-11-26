@@ -23,9 +23,9 @@ services:
      #  #- ./:/var/www/html
      environment:
        DB_HOST: db:3306
-       DB_USER: root
-       DB_PASSWORD: gsviec
-       DB_NAME: gsviec
+       DB_USER: cocorico_dev
+       DB_PASSWORD: cocorico_dev
+       DB_NAME: cocorico_dev
        APPLICATION_ENV: development
        REDIS_HOST: redis-master
     phpmyadmin:
