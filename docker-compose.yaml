@@ -19,6 +19,7 @@ services:
      image: cocolabs/cocorico
      ports:
        - "80:8000"
+       - "9002:9001"
      # volumes:
      #  #- ./:/var/www/html
      environment:
